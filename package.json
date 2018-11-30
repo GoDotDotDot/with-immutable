@@ -1,8 +1,8 @@
 {
   "name": "with-immutable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A higher order component for translating immutable objects to raw javascript objects.",
-  "main": "lib/index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel --copy-files src --out-dir lib"
@@ -22,8 +22,6 @@
     "url": "https://github.com/GoDotDotDot/with-immutable/issues"
   },
   "homepage": "https://github.com/GoDotDotDot/with-immutable#readme",
-  "dependencies": {
-  },
   "devDependencies": {
     "@babel/cli": "^7.1.5",
     "@babel/core": "^7.1.2",

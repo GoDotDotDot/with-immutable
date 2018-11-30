@@ -1,6 +1,6 @@
 import React from 'react';
 import { Iterable, is } from 'immutable';
-
+/* eslint-disable */
 function toRawJS(props) {
   const KEY = 0;
   const VALUE = 1;
@@ -16,7 +16,8 @@ function toRawJS(props) {
 }
 
 // eslint-disable-next-line
-const WithImmutable = (WrappedComponent, { showInfo = false, pure = true }) => {
+const WithImmutable = (WrappedComponent, config = {}) => {
+  const { showInfo = false, pure = true } = config;
   if (pure) {
     return class ImmutableComponent extends React.Component {
       shouldComponentUpdate(nextProps, nextState) {
