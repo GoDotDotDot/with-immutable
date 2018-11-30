@@ -1,0 +1,44 @@
+{
+  "name": "with-immutable",
+  "version": "1.0.0",
+  "description": "A higher order component for translating immutable objects to raw javascript objects.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel --copy-files src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoDotDotDot/with-immutable.git"
+  },
+  "keywords": [
+    "react",
+    "immutable",
+    "hoc"
+  ],
+  "author": "GoDotDotDot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GoDotDotDot/with-immutable/issues"
+  },
+  "homepage": "https://github.com/GoDotDotDot/with-immutable#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-decorators": "^7.1.2",
+    "@babel/plugin-transform-react-constant-elements": "^7.0.0",
+    "@babel/plugin-transform-react-inline-elements": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "immutable": "^4.0.0-rc.12",
+    "react": "^16.6.3"
+  },
+  "peerDependencies": {
+    "immutable": ">=3.0.0",
+    "react": ">=15.0.0",
+    "react-dom": ">=15.0.0"
+  }
+}
