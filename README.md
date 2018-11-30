@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>mete-cli</h1>
+  <h1>with-immutable</h1>
 </div>
 
 [![npm version](https://img.shields.io/npm/v/with-immutable.svg)](https://www.npmjs.com/package/with-immutable) [![npm downloads](https://img.shields.io/npm/dt/with-immutable.svg)](https://npm-stat.com/charts.html?package=with-immutable) [![Github All Releases](https://img.shields.io/github/downloads/godotdotdot/with-immutable/total.svg)](https://github.com/GoDotDotDot/with-immutable/releases)
