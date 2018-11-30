@@ -37,21 +37,21 @@ class ContainerComponent extends React.Component {
     return (
       <div>
         {data.map((ele, idx) => (
-          <span key={indx}>{ele.name}</span>
+          <span key={idx}>{ele.name}</span>
         ))}
       </div>
     );
   }
 }
 
-const mapStateToProps = store => {
+const mapPropsToState = store => {
   const state = store.get('test');
   return {
     data: state.get('data'), // immutable object
   };
 };
 
-export default connect(mapStateToProps)(withImmutable(ContainerComponent));
+export default connect(mapPropsToState)(withImmutable(ContainerComponent));
 ```
 
 ### Config
