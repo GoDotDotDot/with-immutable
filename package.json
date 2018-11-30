@@ -1,6 +1,6 @@
 {
   "name": "with-immutable",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A higher order component for translating immutable objects to raw javascript objects.",
   "main": "./lib/index.js",
   "scripts": {

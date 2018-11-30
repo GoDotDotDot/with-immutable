@@ -1,6 +1,6 @@
 import React from 'react';
 import { Iterable, is } from 'immutable';
-/* eslint-disable */
+
 function toRawJS(props) {
   const KEY = 0;
   const VALUE = 1;
